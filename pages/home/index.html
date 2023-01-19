@@ -21,20 +21,22 @@
 
     <main>
 
-        <section class="hero-section">
+        <section class="hero-section" id="hero-section">
             <img src="../../assets/home/image-homepage-hero.jpg" alt="Computador site fictício">
             <div class="text-block">
                 <h1>Olá, me chamo Alex Spencer e eu amo construir websites lindos</h1>
-                <div class="hero-button">                
+                <button class="hero-button">                
                     <div class="arrow-container">
                         <img src="../../assets/icons/down-arrows.svg">
                     </div>
-                    <button class="hero-button">sobre mim</button>
-                </div>
+                    <div style="display:flex; justify-content:center; height:100%; width:100%; align-items:center;">
+                        <a href="#about-section" style="display:inline-block; color:#FFFFFF;">sobre mim</a>
+                    </div>
+                </button>
             </div>
         </section>
     
-        <section class="about-section">
+        <section class="about-section" id="about-section">
             <img src="../../assets/home/image-homepage-profile.jpg" alt="">
             <div class="about-text">
                 <h2>Sobre mim</h2>
@@ -44,7 +46,7 @@
 
         </section>
     
-        <section class="contact-section">
+        <section class="contact-section" id="contact-section">
             <h2>Interessado em fazer<br>projetos comigo?</h2>
             <button>contato</button>
         </section>
@@ -62,9 +64,25 @@
 
         </nav>
         <div class="social">
-            <img src="../../assets/icons/github-light.svg" alt="Github">
-            <img src="../../assets/icons/twitter-light.svg" alt="Twitter">
-            <img src="../../assets/icons/linkedin-light.svg" alt="LinkedIn">
+            <div class="social-button">
+                <a href="https://www.github.com">
+                    <img src="../../assets/icons/github-light.svg" alt="Github">
+                </a>
+            </div>
+            <div class="social-button">
+                <a href="https://www.twitter.com">
+                    <img src="../../assets/icons/twitter-light.svg" alt="Twitter">
+                </a>
+            </div>
+            <div class="social-button">
+                <a href="https://www.github.com">
+                    <img src="../../assets/icons/linkedin-light.svg" alt="LinkedIn">
+                </a>
+            </div>            
+
+
+            
+            
         </div>
     </footer>
 

@@ -36,9 +36,12 @@
 
 }
 
-.hero-button button {
-    justify-content: center;
-    
+.hero-button:hover {
+    background-color: #5FB4A2;
+}
+
+.hero-button:hover img {
+    filter: brightness(1000%);
 }
 
 .arrow-container {
