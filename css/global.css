@@ -56,6 +56,11 @@ main {
     margin: 0px 165px;
 }
 
+section {
+    display:flex;
+    justify-content:space-between;
+}
+
 h1 {
     font-family: 'Ibarra Real Nova';
     font-style: normal;
@@ -175,4 +180,43 @@ footer a:link, footer a:visited {
 
 .menu-selected {
     color: #5FB4A2 !important;
+}
+
+.portfolio-nav {
+    border-top: 1px solid #2633323D;
+    border-bottom: 1px solid #2633323D;
+}
+
+.portfolio-nav-button-left {
+    display:flex;
+    flex-direction:column;
+    height: 130px;
+    justify-content:center;
+}
+
+.portfolio-nav-button-right {
+    display:flex;
+    flex-direction:column;
+    height: 130px;
+    justify-content:center;
+    align-items:flex-end;
+}
+
+.arrow-bg-left {
+    display:flex;
+    width: 8px;
+    height: 16px;
+    margin-right:32px;
+}
+
+.arrow-bg-right {
+    display:flex;
+    width: 8px;
+    height: 16px;
+    margin-left:32px;
+}
+
+.portfolio-nav a {
+    display:flex;
+    align-items:center;
 }
