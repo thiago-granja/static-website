@@ -148,10 +148,6 @@ footer a:link, footer a:visited {
     color: #FFFFFF;
 }
 
-img {
-    width: 100%;
-}
-
 .social {
     width: 104px;
     height: 24px;
@@ -162,12 +158,10 @@ img {
 
 .social img {
     height: 100%;
-    width: 100%;
 }
 
 .social-button {
     height: 100%;
-    width: 100%;
 }
 
 .logo {

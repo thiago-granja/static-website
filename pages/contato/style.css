@@ -1,0 +1,16 @@
+.entre-contato {
+    display:flex;
+    justify-content:space-between;
+    border-top: 1px solid #2633323D;
+    border-bottom: 1px solid #2633323D;
+    height: 354px;
+    padding: 48px 0px;
+}
+
+.text-box {
+    width: 635px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
