@@ -14,3 +14,55 @@
     justify-content:space-between;
 }
 
+.form-section {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 62px;
+    padding: 47px 0px;
+
+}
+
+.form-block {
+    height: 426px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    
+}
+
+input {
+    background-color:#e8e4e4;
+    border:none;
+    height: 48px;
+    width: 635px;
+}
+
+.input-name {
+    display:flex;
+    flex-direction:column;
+    
+}
+
+.input-email {
+    display:flex;
+    flex-direction:column;
+    
+}
+
+.input-msg {
+    display:flex;
+    flex-direction:column;
+    
+}
+
+.input-msg input {
+    height: 96px;
+}
+
+button {
+    border:none;
+    color: #FFFFFF;
+    background-color: #203A4C;
+    width:200px;
+
+}
