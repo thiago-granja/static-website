@@ -1,22 +1,19 @@
-.hero-section {
+section {
+    margin-bottom: 150px;
     height: 600px;
-    margin-bottom: 149px;
-    display: flex;
-    position:relative;
+}
+
+.hero-section {
+    position: relative;
 }
 
 .text-block {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
     background-color: #FAFAFA ;
     width: 445px;
     height: 357px;
     left: 0px;
     bottom: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .text-block h1 {
@@ -24,14 +21,9 @@
 }
 
 .hero-button {
-    align-self: baseline;
     background-color: #203A4C;
     display: flex;
-    flex-direction: row;
     color: #FFFFFF;
-    align-items: center;
-    justify-content: space-between;
-    width: 200px;
     border: none;
 
 }
@@ -48,8 +40,8 @@
     background-color: #0000001a;
     height: 100%;
     aspect-ratio: 1;
-    display:flex;
-    align-items:center;
+    display: flex;
+    align-items: center;
     justify-content: center;
 
 }
@@ -57,19 +49,6 @@
 .arrow-container img {
     max-height: 12px;
     max-width: 16px;
-}
-
-.about-section {
-    height: 601px;
-    margin-bottom: 150px;
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-.about-section img {
-    max-height: 600px;
-    max-width: 540px;
 }
 
 .about-text {
@@ -84,8 +63,5 @@
 }
 
 .contact-section {
-    height: 84px;
-    margin-bottom: 150px;
-    display: flex;
-    justify-content: space-between;
+    height: 100px;
 }
