@@ -4,6 +4,8 @@
 
 O objetivo deste exercício é replicar o website encontrado no arquivo 'Desafio front academy 1.fig'.
 
+Para navegar pelas páginas desenvolvidas, basta executar o arquivo `index.html` de qualquer pasta dentro da pasta pages. Assim que o navegador for aberto, o site poderá ser navegado normalmente. Para esse projeto, haviam páginas obrigatórias e opcionais (todas feitas) conforme abaixo. 
+
 ## Páginas obrigatórias
 
 - [Home](#Home)
@@ -140,7 +142,5 @@ Seções
 
 - Footer ![](https://i.imgur.com/P06m37L.png)
 
-
-**LEMBRE-SE**: Feito é melhor do que perfeito, mas não faça mal feito!!!
 
 ###### tags: `front-end` `módulo 2` `HTML` `CSS` `desafio`
