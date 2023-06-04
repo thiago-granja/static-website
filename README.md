@@ -2,16 +2,13 @@
 
 # Desafio | Front-end - Módulo 2
 
-O objetivo deste exercício é replicar o website encontrado no arquivo 'Desafio front academy 1.fig'.
+O objetivo deste exercício foi replicar o website encontrado no arquivo `Desafio front academy 1.fig`.
 
 Para navegar pelas páginas desenvolvidas, basta executar o arquivo `index.html` de qualquer pasta dentro da pasta pages. Assim que o navegador for aberto, o site poderá ser navegado normalmente. Para esse projeto, haviam páginas obrigatórias e opcionais (todas feitas) conforme abaixo. 
 
-## Páginas obrigatórias
+## Páginas
 
 - [Home](#Home)
-
-## Páginas opcionais
-
 - [Portfolio](#Portfolio)
 - [Portfolio - 01 - Manage](#Portfolio---01---Manage)
 - [Portfolio - 02 - Bookmark](#Portfolio---02---Bookmark)
